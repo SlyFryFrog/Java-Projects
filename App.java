@@ -7,7 +7,7 @@ public class App {
         Scanner scnr = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter a number to find its' average of the sum of its digits.");
+            System.out.println("Enter a number to find its average of the sum of its digits.");
 
             try {
                 inputNum = scnr.nextInt();
