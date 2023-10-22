@@ -9,4 +9,4 @@ Input: 1267
 Output: 4
 
 Input: 12345
-Output: 12345
+Output: 3
