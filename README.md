@@ -1,4 +1,4 @@
-# Description
+# Average.java Description
 Simple program to calculate the average of each char integer that the user inputs. 
 
 # Example Input/Output
@@ -10,3 +10,6 @@ Output: 4
 
 Input: 12345
 Output: 3
+
+# ReadWriteFile.java Description
+To be written
