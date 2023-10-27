@@ -26,6 +26,7 @@ public class ReadWriteFile {
 
     /**
      * Prompts user with text and returns their input
+     * @param scnr Takes in a Scanner object for input
      * @return String for valid file name
      */
     public static String promptForFileName(Scanner scnr) {
@@ -38,13 +39,14 @@ public class ReadWriteFile {
     }
 
     /**
-     * 
+     * Returns a String of the user's input
+     * @param scnr Takes in a Scanner object for input
      * @return String of text to be written to the file
      */
     public static String promptForText(Scanner scnr) {
         String writeString;
         
-        System.out.println("Enter a what you would like to be written to the file.");
+        System.out.println("Enter what you would like to writte to the file.");
         writeString = scnr.nextLine();
 
         return writeString;
@@ -55,7 +57,7 @@ public class ReadWriteFile {
     * @param fileName takes a String for the desired file name
     * @param writeString takes a String for input to be written to the file
     * @throws IOException
-    * @return File file
+    * @return Returns a File object
     */
     public static File writeText(String filename, String writeString) throws IOException {
         File file = new File(filename);
